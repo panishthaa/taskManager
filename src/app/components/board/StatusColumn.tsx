@@ -28,7 +28,7 @@ export default function StatusColumn({
   return (
     <div className="flex-1 min-w-64">
       <div className="flex items-center justify-between mb-4">
-        <h3 className="font-semibold text-gray-900 dark:text-white">{title}</h3>
+        <h3 className="font-semibold text-primary">{title}</h3>
         <span className="text-sm text-gray-500 dark:text-gray-400">
           {tasks.length} {tasks.length === 1 ? 'task' : 'tasks'}
         </span>
